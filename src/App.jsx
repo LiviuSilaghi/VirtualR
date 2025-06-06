@@ -1,8 +1,8 @@
 /** @format */
-
 import FeatureSection from "./components/FeatureSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import Workflow from "./components/Workflow";
 
 export const App = () => {
   return (
@@ -11,6 +11,7 @@ export const App = () => {
       <div className="max-w-7x1 mx-auto pt-20 px-6">
         <HeroSection />
         <FeatureSection />
+        <Workflow />
       </div>
     </div>
   );
