@@ -22,7 +22,7 @@ const FeatureSection = () => {
           </span>
         </h2>
       </div>
-      <div className="flex flex-wrap mt-10 lg:mt-20  ">
+      <div className="flex flex-wrap mt-10 lg:mt-20 w-full">
         {features.map((feature, index) => (
           <div
             className="w-full sm:w-1/2 lg:w-1/3 flex justify-center"
